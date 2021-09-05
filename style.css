@@ -13,6 +13,11 @@
     height: 35px;
 }
 
+.buscador:hover {
+    outline-color: rgb(49, 49, 49);
+    
+}
+
 footer{
     position: relative;
     background-color: rgb(73, 73, 73);
@@ -27,17 +32,58 @@ hr {
     z-index: 2;
 }
 
-h4 {
-    font-family: cursive;
-    font-size: 16px;
-}
-
 h3 {
     position: relative;
     top: 45%;
     left: 60%;
 }
 
-.a_github, .a_twitter {
-    margin: 0 10px;
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    top: 20px;
+    left: 13px;
+}
+
+.a_twitter, .google_txt1, .terms {
+    position: relative;
+    top:52px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0;
+    margin: 0 0 0 8px;
+}
+
+.a_twitter:hover, .google_txt1:hover, .terms:hover {
+    text-decoration: underline;
+}
+
+.avatar_pic {
+    border-radius: 50px;
+    position: relative;
+    left: 865px;
+    bottom: 110px;
+    width: 40px;
+    height: 40px;
+    
+}
+
+.avatar_pic:hover {
+    color: rgb(199, 24, 24);
+}
+
+.mic {
+    position: relative;
+    top: 380px;
+    left: 200px;
+    width: 30px;
+    height: 30px;
+}
+
+.mic:hover {
+    outline: rgb(12, 123, 214);
 }
