@@ -1,0 +1,43 @@
+.title{
+    position: relative;
+    left: 40%;
+    top: 35%;
+    color: greenyellow;
+}
+
+.buscador {
+    position: relative;
+    top: 40%;
+    left: 15%;
+    border-radius: 15px;
+    height: 35px;
+}
+
+footer{
+    position: relative;
+    background-color: rgb(73, 73, 73);
+    top: 700px;
+    height: 100px;
+    width: 100%;
+}
+
+hr {
+    position: relative;
+    top: 770px;
+    z-index: 2;
+}
+
+h4 {
+    font-family: cursive;
+    font-size: 16px;
+}
+
+h3 {
+    position: relative;
+    top: 45%;
+    left: 60%;
+}
+
+.a_github, .a_twitter {
+    margin: 0 10px;
+}
